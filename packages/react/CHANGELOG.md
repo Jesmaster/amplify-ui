@@ -1,5 +1,23 @@
 # @aws-amplify/ui-react
 
+## 2.4.1
+
+### Patch Changes
+
+- [#1340](https://github.com/aws-amplify/amplify-ui/pull/1340) [`43d8106d3`](https://github.com/aws-amplify/amplify-ui/commit/43d8106d378e0438326f8992b4b1bfe73d91f5d8) Thanks [@joebuono](https://github.com/joebuono)! - Allow Content-less TabItem
+
+* [#1320](https://github.com/aws-amplify/amplify-ui/pull/1320) [`94d09948a`](https://github.com/aws-amplify/amplify-ui/commit/94d09948ac9d36a49b1872751f0587e73413bd99) Thanks [@wlee221](https://github.com/wlee221)! - Re-export `translations` from ui-[framework] packages. This lets you use `translations` directly:
+
+  ```diff
+  - import { translations } from '@aws-amplify/ui';
+  + import { translations } from '@aws-amplify/ui-[framework]';
+  ```
+
+- [#1321](https://github.com/aws-amplify/amplify-ui/pull/1321) [`e85c0db5c`](https://github.com/aws-amplify/amplify-ui/commit/e85c0db5cd6a3c4f9924466afb5e7e5e7dbbeea3) Thanks [@zchenwei](https://github.com/zchenwei)! - chore: using aria-describedby on field controls
+
+- Updated dependencies [[`722e2a932`](https://github.com/aws-amplify/amplify-ui/commit/722e2a93263478aed2a9aee872ab1fcbc86b41ca)]:
+  - @aws-amplify/ui@3.0.14
+
 ## 2.4.0
 
 ### Minor Changes
